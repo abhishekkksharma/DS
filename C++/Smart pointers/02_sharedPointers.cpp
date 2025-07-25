@@ -26,6 +26,7 @@ int main() {
     {
         // shared_ptr<User> tim(new User());//allowed
         shared_ptr<User> tim = make_shared<User>(); //good practice
+        weak_ptr<User> wtim = tim;
         shared_ptr<User> timm = tim;
     }
     

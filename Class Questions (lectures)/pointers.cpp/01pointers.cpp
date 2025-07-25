@@ -20,6 +20,9 @@ int main() {
     cout<<"Value of b (a's address) = "<<b<<endl;
     cout<<"Value of a = "<<a<<endl;
     cout<<"Address of a (using *b) = "<<*b<<endl;
+
+    //Dynamic pointers:
+    
     return 0;
 }
 
